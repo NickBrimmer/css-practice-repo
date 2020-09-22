@@ -1,11 +1,11 @@
 {
-  "name": "basic-footer",
+  "name": "side-bar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass styles/styles.scss style.css",
-    "sass-watch": "node-sass styles/styles.scss style.css -w"
+    "compile:sass": "node-sass styles/styles.scss styles.css",
+    "sass-watch": "node-sass styles/styles.scss styles.css -w"
   },
   "keywords": [],
   "author": "",
