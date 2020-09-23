@@ -1,5 +1,8 @@
 # CSS MISHMASH - Why did I (namely, Nick) make this?
-This is a repo, collection, mishmash, hodgepog, golden-standard of css code, projects and articles worthy of being remembered and even mastery. If you like this, feel free to clone or follow!
+We've all been there - sitting with a styling problem, knowing there's an answer but not knowing where to get it. Well, this is a repo, collection, mishmash, hodgepog, golden-standard of css code, projects and articles worthy of being remembered and even mastery. I am personally passionate about UX design and CSS is a very big part of UX engineering. So this is my passion project.
+
+
+If you like this, feel free to clone or follow!
 
 
 # CSS TRICKS
