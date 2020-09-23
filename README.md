@@ -1,4 +1,4 @@
-# css-practice-repo
+# CSS MISHMASH - Why did I (namely, Nick) make this?
 This is a repo, collection, mishmash, hodgepog, golden-standard of css code, projects and articles worthy of being remembered and even mastery. If you like this, feel free to clone or follow!
 
 
