@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-html,
-body {
+html, body {
   height: 100%; }
 
 html {
@@ -16,20 +15,22 @@ body {
   display: flex;
   flex-direction: column; }
 
-header,
-footer,
-main {
+header, footer, main {
   padding: 2em; }
 
-header,
-footer {
+header, footer {
   background: #16a085;
-  height: 8em; }
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 main {
   background: #fff;
-  flex: 1 1 0%; }
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
 
-header h1,
-footer h2 {
+header h1, footer h2 {
   color: #fff; }
