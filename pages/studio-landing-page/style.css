@@ -38,7 +38,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.2vw;
   padding: 5px 2px; }
 
 nav ul li a:hover {
@@ -63,10 +63,14 @@ nav ul li a:hover {
   margin-top: 100px; }
 
 .text-box h5 {
-  color: #e7c82f; }
+  color: #e7c82f;
+  font-size: 1.1vw; }
+
+.text-box h1 {
+  font-size: 2.8vw; }
 
 .gallery-box {
-  max-width: 400px;
+  max-width: 31vw;
   position: relative;
   margin: auto; }
 
@@ -83,7 +87,7 @@ nav ul li a:hover {
 
 .gallery-box ul li {
   list-style: none;
-  font-size: 16px;
+  font-size: 1.2vw;
   font-weight: bold;
   padding: 0 30px;
   margin-bottom: 30px;
