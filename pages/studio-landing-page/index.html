@@ -27,11 +27,12 @@
       <div class="col">
         <div class="text-box">
           <h5>Our Products</h5>
-          <h1>Simplicity is the ultimate sophistication</h1>
+          <h1> <b>Simplicity</b> <br>  is the ultimate <i>sophistication</i> </h1>
         </div>
-        <img src="./assets/circle.png" class="small-icon1">
-        <img src="./assets/circle.png" class="small-icon2">
-        <img src="./assets/square.png" class="small-icon3">
+
+        <!-- <img src="./assets/circle.png" class="small-icon1" >
+        <img src="./assets/circle.png" class="small-icon2" >
+        <img src="./assets/square.png" class="small-icon3" > -->
 
       </div>
       <div class="col">
@@ -47,8 +48,9 @@
       </div>
     </div>
 
-    <img src="./assets/circle.png" class="small-icon4">
-    <img src="./assets/square.png" class="small-icon5">
+  </div>
+
+  <div id="cursor">
 
   </div>
 
@@ -71,6 +73,16 @@
         this.className += " active"
       }
     }
+
+
+    const cursor = document.getElementById('cursor')
+
+    document.onmousemove = function(event){
+      cursor.style.left = (event.pageX -25) + "px"
+      cursor.style.top  = (event.pageY - 25) + "px"
+      cursor.style.display = "block";
+    };
+
   </script>
 </body>
 
