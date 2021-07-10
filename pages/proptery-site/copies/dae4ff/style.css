@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: "Poppins", sans-serif; }
 
 .hero {
   width: 100%;
@@ -12,24 +10,19 @@
   background-color: #dae4ff;
   padding-left: 6%;
   padding-right: 6%;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 nav {
   width: 100%;
   padding: 6% 0;
-  display: flex;
-}
+  display: flex; }
 
 .logo {
   flex: 1;
-  margin-left: 3vw;
-
-  img {
+  margin-left: 3vw; }
+  .logo img {
     width: 14vw;
-    cursor: pointer;
-  }
-}
+    cursor: pointer; }
 
 button {
   padding: 0.8vw 5vw;
@@ -40,65 +33,53 @@ button {
   color: #fff;
   cursor: pointer;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  font-size: 1.3vw;
-}
+  font-size: 1.3vw; }
 
 .menu-icon {
   margin: 0 2.5vw 0 2vw;
   width: 3.8vw;
   border-radius: 50%;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-}
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); }
 
 .row {
   display: flex;
   width: 100%;
   background-color: #fff;
   border-radius: 15px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .col-1,
 .col-2 {
   flex-basis: 50%;
-  overflow: hidden;
-
-  img {
+  overflow: hidden; }
+  .col-1 img,
+  .col-2 img {
     width: 90%;
-    border-radius: 5%;
-  }
-}
+    border-radius: 5%; }
 
 .image-container {
   padding: 5%;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .col-1 {
   padding: 8% 5%;
-  position: relative;
-
-  h1 {
+  position: relative; }
+  .col-1 h1 {
     font-size: 4vw;
     line-height: 4.5vw;
     letter-spacing: 2px;
-    color: #333;
-  }
-
-  p {
+    color: #333; }
+  .col-1 p {
     color: #777;
     line-height: 1.8vw;
     margin: 15px 0 30px;
-    font-size: 1.6vw;
-  }
-}
+    font-size: 1.6vw; }
 
 ul {
   position: absolute;
-  bottom: 30px;
-
-  li {
+  bottom: 30px; }
+  ul li {
     list-style: none;
     width: 15px;
     height: 15px;
@@ -106,6 +87,4 @@ ul {
     display: inline-block;
     border-radius: 50%;
     margin-right: 15px;
-    cursor: pointer;
-  }
-}
+    cursor: pointer; }
