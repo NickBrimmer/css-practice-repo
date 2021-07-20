@@ -7,40 +7,42 @@
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/sticky-footer.css" />
 </head>
+
 <body>
+
   <div class="hero">
     <nav>
       <div class="logo">
-        <img src="./assets/logo.png" alt="">
+        <img src="./assets/logo.png">
       </div>
-      <button>List Property</button>
-      <img src="./assets/menu.png" class="menu-icon" alt="">
+        <button type="button" >List Property</button>
+        <img src="./assets/menu.png" class="menu-icon" alt="">
     </nav>
-
+    
     <div class="row">
       <div class="col-1">
-        <h1>Explore <br> Best Properties</h1>
-        <p>You can explore the best properties from the luxury of your own home and still get the best price, guaranteed!</p>
+        <h1>Explore <br/> Best Properties</h1>
+        <p>You can explore the best properties near you from the comfort of your own home with the promise of the best prices.</p>
         <button type="button" >Explore Properties</button>
-      
+
         <ul>
           <li class="btn active"></li>
           <li class="btn"></li>
           <li class="btn"></li>
         </ul>
-      </div>
 
+      </div>
       <div class="col-2">
         <div class="image-container">
-          <img src="./assets/pic1.png" alt="">
-        </div>
+        <img src="./assets/pic1.png" id="banner" >
+      </div>
       </div>
     </div>
-    
   </div>
 
-  <script type="text/javascript" >
-  const btn = document.getElementsByClassName("btn");
+  <script>
+
+    const btn = document.getElementsByClassName("btn");
     const banner = document.getElementById("banner");
 
     btn[0].onclick = function(){
@@ -74,6 +76,7 @@
         b.classList.remove('active')
       }
     }
+
   </script>
 </body>
 
